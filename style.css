@@ -82,7 +82,7 @@ header ul li a:hover{
 
 .page1 {
     height: 100vh;
-    background: linear-gradient(500deg, #000000 0%, #200223 73%, #050717 100% );
+    background-color: black;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -159,7 +159,7 @@ img {
 
 .page2 {
     height: 100vh;
-    background: linear-gradient(500deg, #000000 0%, #200223 73%, #050717 100% );
+    background-color: black;
     display: flex;
     justify-content: flex-end;
     
@@ -237,7 +237,7 @@ ul i:hover {
 /* Página 3 */
 
 .page3 {
-    background: linear-gradient(500deg, #000000 0%, #200223 73%, #050717 100% );
+    background-color: black;
     height: 100vh;
 }
 
@@ -357,7 +357,7 @@ ul .text-icones{
 
 .page4{
     height: 100vh;
-    background: linear-gradient(500deg, #000000 0%, #200223 73%, #050717 100% );
+    background-color: black;
 }
 
 .nenhum {
@@ -373,7 +373,7 @@ ul .text-icones{
 
 .page5{
     height: 100vh;
-    background: linear-gradient(500deg, #000000 0%, #200223 73%, #050717 100% );
+    background-color: black;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -474,7 +474,7 @@ ul .text-icones{
 }
 
 footer{
-    background: linear-gradient(500deg, #000000 0%, #200223 50%, #000000 89% );
+    background-color: black;
     color: white;
     font-size: 14px;
     padding: 10px;
