@@ -42,3 +42,15 @@ body {
     transform: scale(1.10);
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.507);
 }
+
+@media screen and (max-width: 1100px) {
+
+    .container-obg{
+        width: 90%;
+    }
+
+    p{
+        font-size: 18px;
+    }
+
+}
