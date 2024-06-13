@@ -704,7 +704,7 @@ footer{
     .box-sobre{
         margin: 0 auto;
         width: 90%;
-        height: 500%;
+        height: 600%;
         margin-bottom: 30%;
     }
 
@@ -714,7 +714,35 @@ footer{
     }
 
     .apresentacao-eu{
+        margin: -4% 0;
         font-size: 18px;
+    }
+
+    /* Página 3 */
+    .page3{
+        height: 250vh;
+    }
+
+    .text-skills{
+        font-size: 35px;
+    }
+
+    .soft-skills ul{
+        display: flex;
+        gap: 40px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .text-icones{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .card{
+        display: flex;
+        flex-direction: column;
     }
 
     /* Página 4 */
@@ -725,7 +753,7 @@ footer{
         text-align: center;
         align-items: center;
         padding: 350px 0px;
-        font-size: 18px;
+        font-size: 28px;
     }
 
     /* Página 5 */
@@ -738,7 +766,7 @@ footer{
         width: 95%;
         height: 55%;
     }
-    
+
     .container-contato input, textarea{
         width: 110%;
         margin-left: -5%;
@@ -751,7 +779,3 @@ footer{
     }
 
 }
-
-
-
-
