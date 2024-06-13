@@ -665,8 +665,14 @@ footer{
         margin: 0 auto;
     }
 
-    .page1, .circulo img{
+    .page1, 
+    .circulo img{
         flex-direction: column-reverse;
+    }
+
+    .circulo img{
+        margin-right: 5%;
+        width: 90%;
     }
 
     .container-text{
@@ -676,7 +682,7 @@ footer{
 
     .page1,
     .text-dev{
-        font-size: 30px;
+        font-size: 38px;
         padding: 0px 40px;
     }
 
@@ -691,37 +697,61 @@ footer{
     }
 
     .minha-foto img{
-        margin-left: 28%;
-        width: 50%;
-        height: 0 auto;
+        display: none;
 
     }
 
     .box-sobre{
         margin: 0 auto;
         width: 90%;
-        height: 100%;
+        height: 500%;
         margin-bottom: 30%;
     }
 
     .apresentacao{
-        font-size: 28px;
+        font-size: 38px;
         margin-bottom: -10%;
     }
 
     .apresentacao-eu{
-        font-size: 12px;
+        font-size: 18px;
     }
 
     /* Página 4 */
 
     .nenhum{
-        margin-left: -25%;
-        padding: 0px 90px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        padding: 350px 0px;
         font-size: 18px;
     }
 
+    /* Página 5 */
+
+    .text-fale{
+        font-size: 38px;
+    }
+
+    .container-contato{
+        width: 95%;
+        height: 55%;
+    }
+    
+    .container-contato input, textarea{
+        width: 110%;
+        margin-left: -5%;
+        padding: 10px 10px;
+    }
+
+    .btn-enviar, .btn-whats{
+        width: 110%;
+        margin-left: -5%;
+    }
+
 }
+
 
 
 
