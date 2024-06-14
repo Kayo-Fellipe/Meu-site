@@ -751,7 +751,29 @@ footer{
     .card{
         display: flex;
         flex-direction: column;
+        gap: 85px;
     }
+
+    .img-box {
+        width: 250px;
+        height: 190px;
+        background-color: white;
+    }
+
+
+    .card .img-box img {
+        width: 90px;
+        height: 90px;
+        top: -0%; 
+    }
+
+    .card .box-text {
+        position: absolute;
+        top: 70px;
+        width: 100%;
+        height: 250px;
+    }
+   
 
     /* Página 4 */
 
